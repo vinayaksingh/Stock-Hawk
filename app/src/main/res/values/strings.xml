@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Stock Hawk</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units" translatable="false">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title" translatable="true">Add Stock</string>
+    <string name="dialog_hint" >Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel" translatable="true">Cancel</string>
+    <string name="dialog_add" translatable="true">Add</string>
+
+    <string name="error_no_network" translatable="true">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks" translatable="true">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity" translatable="true">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity" translatable="true">Will refresh when network available.</string>
+    <string name="toast_no_connectivity_with_date" translatable="true">Network not available. Stocks last updated on: %s</string>
+
+    <!-- Strings for Content Description for Accessibility   -->
+    <string name="description_in_dollars" translatable="false">Dollars</string>
+    <string name="description_in_percentage" translatable="false">Percentage</string>
+    <string name="description_change_in_dollars" translatable="false">dollars</string>
+    <string name="description_change_in_percentage" translatable="false">percentage</string>
+    <string name="description_price_up_by" translatable="true">up by</string>
+    <string name="description_price_down_by" translatable="true">down by</string>
+    <string name="description_add_stock" translatable="true">Add Stock</string>
+    <string name="description_change_menu_to" translatable="true">change display to </string>
+    <!-- Graph content description -->
+    <string name="description_stock_price_on" translatable="true">Stock price on %s</string>
+    <!-- Graph Tab content description -->
+    <string name="description_one_week" translatable="true">One Week</string>
+    <string name="description_one_month" translatable="true">One Month</string>
+    <string name="description_three_months" translatable="true">Three Months</string>
+    <string name="description_six_months" translatable="true">Six Months</string>
+    <string name="description_one_year" translatable="true">One Year</string>
+
+    <!-- Toast string for bad Stock Symbol -->
+    <string name="toast_bad_input" translatable="true">Invalid Stock : %s</string>
+
+    <!-- Text for empty list in widget -->
+    <string name="label_widget_emply_list" translatable="true">List is empty, open the app and add stock.</string>
+
+    <!-- USD y-axis label -->
+    <string name="label_USD" translatable="false">USD</string>
+
+
+</resources>

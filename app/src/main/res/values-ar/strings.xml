@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialog_title">إضافة Stock</string>
+    <string name="dialog_hint">(e.g. GOOG)</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_add">إضافة</string>
+
+    <string name="error_no_network">أي شبكة اتصال! سيتم تحميل المؤشر الأسهم عندما تتوفر الشبكة.</string>
+    <string name="error_no_stocks">وأضافت لا الأسهم! اضغط على زر عمل العائمة لإضافة واحد.</string>
+
+    <string name="toast_stock_added_no_connectivity">وأضاف%s رمز. سيتم تحديث عندما شبكة المتاحة.</string>
+    <string name="toast_no_connectivity">سيتم تحديث عندما شبكة المتاحة.</string>
+    <string name="toast_no_connectivity_with_date">الشبكة غير متاحة. آخر تحديث للأسهم على: %s</string>
+
+    <!-- Strings for Content Description for Accessibility   -->
+    <string name="description_price_up_by" >من قبل</string>
+    <string name="description_price_down_by">إهبط</string>
+    <string name="description_add_stock">إضافة Stock</string>
+    <string name="description_change_menu_to">تغيير العرض ل </string>
+    <!-- Graph content description -->
+    <string name="description_stock_price_on">سعر السهم على %s</string>
+    <!-- Graph Tab content description -->
+    <string name="description_one_week">اسبوع واحد</string>
+    <string name="description_one_month">شهر واحد</string>
+    <string name="description_three_months">ثلاثة أشهر</string>
+    <string name="description_six_months">ستة أشهر</string>
+    <string name="description_one_year">سنة واحدة</string>
+
+
+    <!-- Toast string for bad Stock Symbol -->
+    <string name="toast_bad_input">اسهم غير صالح : %s</string>
+
+    <!-- Text for empty list in widget -->
+    <string name="label_widget_emply_list">القائمة فارغة، افتح التطبيق وإضافة الأسهم.</string>
+
+
+
+</resources>

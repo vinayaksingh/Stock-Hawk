@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detail_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/detail_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/material_blue_500"
+            android:textSize="56sp" />
+
+        <LinearLayout
+            android:id="@+id/detail_ll_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/detail_up_down_arrow"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/up" />
+
+
+            <TextView
+                android:id="@+id/detail_price_delta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@android:color/black" />
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            style="@style/MyCustomTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMaxWidth="0dp"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

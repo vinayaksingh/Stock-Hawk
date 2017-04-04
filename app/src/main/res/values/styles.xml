@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PercentChangeTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BidPriceTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="StockSymbolTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Style for TabLayout -->
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/material_blue_500</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>
