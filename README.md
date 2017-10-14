@@ -3,7 +3,8 @@
 Project created as part of Associate Android Developer Fast Track, preparation pathway.
 This has been reviewed by Udacity and conforms to their code standards.
 
-## YahooFinance API not supported anymore https://forums.yahoo.net/t5/Yahoo-Finance-help/Is-Yahoo-Finance-API-broken/td-p/250503 ##
+## YahooFinance API not supported anymore ##
+https://forums.yahoo.net/t5/Yahoo-Finance-help/Is-Yahoo-Finance-API-broken/td-p/250503
  
 ### TODO : ### 
 Plug-in any other open-source backend for Stock data.
